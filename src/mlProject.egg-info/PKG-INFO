@@ -1,17 +1,11 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: mlProject
 Version: 0.0.0
 Summary: A small python package for ml app
-Home-page: https://github.com/Shaukat-Shaikh/End-to-end-ML-Project-Implementation
-Author: Shaukat-Shaikh
+Home-page: https://github.com/shaukat-shaikh/End-to-end-ML-Project-Implementation
+Author: shaukat-shaikh
 Author-email: shaukatdatascience@gmail.com
-Project-URL: Bug Tracker, https://github.com/Shaukat-Shaikh/End-to-end-ML-Project-Implementation/issues
-Dynamic: author
-Dynamic: author-email
-Dynamic: description
-Dynamic: home-page
-Dynamic: project-url
-Dynamic: summary
+Project-URL: Bug Tracker, https://github.com/shaukat-shaikh/End-to-end-ML-Project-Implementation/issues
 
 Workflows
 update config.yaml

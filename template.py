@@ -7,16 +7,16 @@ project_name = "mlProject"
 
 
 list_of_files = [
-    f"src/{project_name}/_init_.py",
-    f"src/{project_name}/components/_init_.py",
-    f"src/{project_name}/utils/_init_.py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
-    f"src/{project_name}/config/_init_.py",
+    f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
-    f"src/{project_name}/pipeline/_init_.py",
-    f"src/{project_name}/entity/_init_.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
-    f"src/{project_name}/constants/_init_.py",
+    f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "params.yaml",
     "schema.yaml",
@@ -25,9 +25,10 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "templates/index.html",
-]
+    "templates/index.html"
 
+
+]
 
 for filepath in list_of_files:
     filepath = Path(filepath)
@@ -43,4 +44,14 @@ for filepath in list_of_files:
             logging.info(f'Ceating empty file : {filepath}')
     else:
         logging.info(f'{filename} is already exists')
+
+
+
+
+
+
+
+
+
+
 
